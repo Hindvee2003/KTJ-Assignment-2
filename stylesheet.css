@@ -1,0 +1,57 @@
+/* Style the game board container */
+#game-board {
+    width: 420px;
+    height: 420px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the individual tiles */
+  #game-board div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Style the new game button */
+  #new-game-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the timer */
+  #timer {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the move counter */
+  #move-counter {
+    font-size: 18px;
+  }
+  
+  /* Style the leaderboard */
+  #leader-board {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  
+  
